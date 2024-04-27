@@ -1163,7 +1163,11 @@ CMakeFiles/game.dir/src/main.cpp.o: /Users/ben/Desktop/Coding/Cpp/TerrainRendere
   /Users/ben/Desktop/Coding/Cpp/TerrainRenderer/src/util/SpriteRenderer.hpp \
   /Users/ben/Desktop/Coding/Cpp/TerrainRenderer/lib/glm/glm/gtc/matrix_transform.hpp \
   /Users/ben/Desktop/Coding/Cpp/TerrainRenderer/src/util/texture.h \
-  /Users/ben/Desktop/Coding/Cpp/TerrainRenderer/src/util/stb_image.h
+  /Users/ben/Desktop/Coding/Cpp/TerrainRenderer/src/util/stb_image.h \
+  /Users/ben/Desktop/Coding/Cpp/TerrainRenderer/src/util/FastNoiseLite.h \
+  /Users/ben/Desktop/Coding/Cpp/TerrainRenderer/src/util/Camera.hpp \
+  /Users/ben/Desktop/Coding/Cpp/TerrainRenderer/src/util/TerrainManager.hpp \
+  /Users/ben/Desktop/Coding/Cpp/TerrainRenderer/src/util/Player.hpp
 
 CMakeFiles/game.dir/src/util/stb_image.cpp.o: /Users/ben/Desktop/Coding/Cpp/TerrainRenderer/src/util/stb_image.cpp \
   /Users/ben/Desktop/Coding/Cpp/TerrainRenderer/src/util/stb_image.h \
@@ -2211,6 +2215,10 @@ CMakeFiles/game.dir/src/util/texture.cpp.o: /Users/ben/Desktop/Coding/Cpp/Terrai
 
 /Users/ben/Desktop/Coding/Cpp/TerrainRenderer/src/util/stb_image.cpp:
 
+/Users/ben/Desktop/Coding/Cpp/TerrainRenderer/src/util/Player.hpp:
+
+/Users/ben/Desktop/Coding/Cpp/TerrainRenderer/src/util/FastNoiseLite.h:
+
 /Users/ben/Desktop/Coding/Cpp/TerrainRenderer/src/util/SpriteRenderer.hpp:
 
 /Users/ben/Desktop/Coding/Cpp/TerrainRenderer/lib/glm/glm/gtc/type_ptr.inl:
@@ -2272,6 +2280,8 @@ CMakeFiles/game.dir/src/util/texture.cpp.o: /Users/ben/Desktop/Coding/Cpp/Terrai
 /Users/ben/Desktop/Coding/Cpp/TerrainRenderer/lib/glm/glm/gtc/matrix_transform.hpp:
 
 /Users/ben/Desktop/Coding/Cpp/TerrainRenderer/lib/glm/glm/ext/scalar_constants.inl:
+
+/Users/ben/Desktop/Coding/Cpp/TerrainRenderer/src/util/Camera.hpp:
 
 /Users/ben/Desktop/Coding/Cpp/TerrainRenderer/lib/glm/glm/ext/scalar_constants.hpp:
 
@@ -3742,6 +3752,8 @@ CMakeFiles/game.dir/src/util/texture.cpp.o: /Users/ben/Desktop/Coding/Cpp/Terrai
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__iterator/default_sentinel.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_enum.h:
+
+/Users/ben/Desktop/Coding/Cpp/TerrainRenderer/src/util/TerrainManager.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/variant:
 

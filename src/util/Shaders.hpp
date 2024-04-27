@@ -93,6 +93,10 @@ public:
     glUniform3fv(glGetUniformLocation(ID, name.c_str()), 1,
                  (const GLfloat *)&value);
   }
+  void setVec2(const std::string &name, glm::vec2 value) const {
+    glUniform2fv(glGetUniformLocation(ID, name.c_str()), 1,
+                 (const GLfloat *)&value);
+  }
 
   void setVec3Arr(const std::string &name, std::vector<glm::vec3> values) const {
     glUniform3fv(glGetUniformLocation(ID, name.c_str()), values.size(),

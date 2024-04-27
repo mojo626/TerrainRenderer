@@ -14,6 +14,8 @@ class SpriteRenderer {
         const char *filepath;
         Texture2D texture;
         Shader shader;
+        
+        SpriteRenderer(){}
         SpriteRenderer(Shader &shader, const char *file) {
             this->shader = shader;
 
@@ -65,17 +67,6 @@ class SpriteRenderer {
 
             this->shader.setVec3("offset", glm::vec3(position, 0.0));
 
-
-            // std::vector<glm::vec3> lights;
-            // for (int i = 0; i < 100; i++)
-            // {
-            //     lights.push_back(glm::vec3(0.0, 0.0, 0.0));
-            // }
-            
-            // lights[0] = glm::vec3(10, 0, 0);
-            // lights[1] = glm::vec3(1, 1, 0);
-            // this->shader.setVec3Arr("lightPos", lights);
-            // this->shader.setInt("numLights", lights.size());
             
 
             glBindVertexArray(this->quadVAO);

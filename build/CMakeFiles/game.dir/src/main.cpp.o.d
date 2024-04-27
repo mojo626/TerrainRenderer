@@ -1073,4 +1073,8 @@ CMakeFiles/game.dir/src/main.cpp.o: \
   /Users/ben/Desktop/Coding/Cpp/TerrainRenderer/src/util/SpriteRenderer.hpp \
   /Users/ben/Desktop/Coding/Cpp/TerrainRenderer/lib/glm/glm/gtc/matrix_transform.hpp \
   /Users/ben/Desktop/Coding/Cpp/TerrainRenderer/src/util/texture.h \
-  /Users/ben/Desktop/Coding/Cpp/TerrainRenderer/src/util/stb_image.h
+  /Users/ben/Desktop/Coding/Cpp/TerrainRenderer/src/util/stb_image.h \
+  /Users/ben/Desktop/Coding/Cpp/TerrainRenderer/src/util/FastNoiseLite.h \
+  /Users/ben/Desktop/Coding/Cpp/TerrainRenderer/src/util/Camera.hpp \
+  /Users/ben/Desktop/Coding/Cpp/TerrainRenderer/src/util/TerrainManager.hpp \
+  /Users/ben/Desktop/Coding/Cpp/TerrainRenderer/src/util/Player.hpp
